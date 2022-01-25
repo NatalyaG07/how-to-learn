@@ -93,13 +93,11 @@
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-  border: 1px solid rgb(150, 28, 28);
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  border: 1px solid rgb(150, 28, 28);
 }
 
 .two-columns__paragraph {
@@ -108,14 +106,12 @@
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 30px;
-  border: 1px solid rgb(150, 28, 28);
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-  border: 1px solid rgb(150, 28, 28);
 }
 
 .digits {
