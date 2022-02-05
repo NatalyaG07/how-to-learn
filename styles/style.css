@@ -43,6 +43,8 @@
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -62,7 +64,7 @@
   color: #0a4086;
 }
 
-.header__main-ilustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -180,10 +182,11 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.two-columns__paragraph:first-of-type {
-  margin-bottom: 20px;
+.table__text:last-of-type {
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -243,7 +246,7 @@
   color: #0a4086;
 }
 
-.feynman__ilustration {
+.feynman__illustration {
   position: absolute;
   width: 867px;
   height: 637px;
@@ -315,7 +318,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 } 
 
