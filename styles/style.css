@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  overflow: hidden;
 
 }
 
@@ -58,10 +59,12 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .header__link:hover {
-  color: #0a4086;
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -82,6 +85,19 @@
   right: 0;
   z-index: 0;
 } 
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear 0s infinite normal;
+}
 
 .description {
   display: flex;
@@ -240,10 +256,12 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .feynman__link:hover {
-  color: #0a4086;
+  opacity: 0.5;
 }
 
 .feynman__illustration {
@@ -347,10 +365,13 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  opacity: 1;
+  transition: opacity 1s ease;
+
 }
 
 .footer__column-link:hover {
-  color: #2f80ed;
+  opacity: 0.5;
 }
 
 .footer__social-icon {
