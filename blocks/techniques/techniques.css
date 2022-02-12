@@ -1,10 +1,6 @@
 .techniques {
   display: flex;
-<<<<<<< HEAD
   flex-direction: column;
-=======
-  flex-direction: column; 
->>>>>>> b7ff2ec4b3e130787ca865146117c216f913c966
   justify-content: center;
   align-items: center;
   width: 80%;
